@@ -1,2 +1,0 @@
-# 07.01-206-divs-flexbox-starter-2nd-gen
-# 07.01-206-divs-flexbox-starter-2nd-gen
