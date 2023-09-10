@@ -103,9 +103,9 @@ html {
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
-  padding: 2em;
+  padding: 1em;
   font-size: 1.25em;
-  height: 100%;
+  /* height: 100%;*/
 }
 
 .wrapper {
@@ -113,16 +113,42 @@ body {
   font-weight: 700;
   display: flex;
   justify-content: space-between;
+  flex-flow: row wrap;
+}
+
+header {
+  font-size: 60px;
+}
+
+main {
+    font-size: 30px;
+}
+
+header,
+footer,
+main {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: #fff;
+    padding: 1.5%;
+}
+
+footer {
+    border-top: 1px solid #fff;
+    padding-top: 40px;
+    margin-top: 40px;
 }
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
+  font-size: 1.2em;
   /*background-color: #f16059;*/
   border-right: 1px solid #fff; /* Add a vertical divider to the right of each child. */
-  padding: 1%;
+  padding: 1.5%;
   height: auto;
   display: flex;
   width: 30%;
